@@ -1,4 +1,4 @@
-pushd /home/flask/self-domain-docker
+pushd /opt/recipes-docker
 git pull origin master
 docker compose up -d --force-recreate --no-deps --build
 popd
